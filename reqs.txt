@@ -1,0 +1,7 @@
+numpy>=1.24.3
+seaborn>=0.12.2
+matplotlib
+tensorflow>=2.13.0
+opencv-python>=4.6.0
+livelossplot>=0.5.5
+flask>=2.3.3

@@ -1,0 +1,48 @@
+.img-size {
+    width: 800px;
+    height: 490px;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+hr {
+    width: 100%; 
+    height:1px; 
+    border-width:0; 
+    background-color:black
+}
+
+.buttons {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    margin-bottom: 20px;
+    
+    
+}
+
+button {
+    border-style: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    
+}
+
+.screen-capture,
+.screen-record {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}

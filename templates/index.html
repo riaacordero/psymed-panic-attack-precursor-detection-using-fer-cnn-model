@@ -1,8 +1,53 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title> Facial Expression Recognition</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="templates/styles/general.css">
+    <link rel="stylesheet" href="templates/styles/webcam-container.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Face expression recognition</title>
   </head>
+
+
   <body>
-    <img id="bg" width= 1280px height=640px src="{{url_for('video_feed')}}">
+    <h2>Ongoing Session</h3>
+    <div class="container">
+      <div class="webcam-container">
+        <!-- <h3>Recording</h3> -->
+        <img id="bg" class="img-size" src="{{ url_for('video_feed') }}">
+        <hr>
+        <div class="buttons">
+          <button class="screen-capture">
+            <span class="material-symbols-outlined">
+            photo_camera
+            </span>
+          </button>
+
+          <button class="screen-record">
+            <span class="material-symbols-outlined">
+              mic
+            </span>
+          </button>
+
+          <button class="screen-record">
+            <span class="material-symbols-outlined">
+              stop
+            </span>
+          </button>
+
+        </div>
+      </div>
+
+      <div class="detail-container">
+        
+      </div>
+    </div>
+    
   </body>
+
 </html>

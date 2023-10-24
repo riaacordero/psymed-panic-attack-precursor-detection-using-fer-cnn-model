@@ -30,7 +30,19 @@ p {
     margin-bottom: 20px;
 }
 
-.patient-details {
+.patient-details,
+.log {
     padding: 10px 40px;
 }
 
+.timestamp {
+    border: 1px solid;
+    
+}
+
+.precursor-details {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding: 0 20px;
+    align-items: center;
+} 

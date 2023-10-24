@@ -1,0 +1,36 @@
+.background {
+    margin-top: 30px;
+}
+
+.name-flex {
+    display: grid;
+    grid-template-columns: 50px 0.75fr;
+    align-items: center;
+    justify-content: center;  
+    margin-left: -12px;
+    column-gap: 40px;
+
+}
+
+p {
+    font-size: 14px;
+}
+
+.name,
+.style {
+    font-weight: 600;
+}
+
+.age {
+    margin-top: -12px;
+}
+
+.patient-bg {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.patient-details {
+    padding: 10px 40px;
+}
+

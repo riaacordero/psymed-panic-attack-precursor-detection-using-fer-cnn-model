@@ -9,16 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/static/general.css">
     <link rel="stylesheet" type="text/css" href="/static/webcam-container.css">
+    <link rel="stylesheet" type="text/css" href="/static/details-container.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Face expression recognition</title>
   </head>
 
 
   <body>
-    <h2>Ongoing Session</h3>
+    <h2>Ongoing Session</h2>
     <div class="container">
       <div class="webcam-container">
-        <!-- <h3>Recording</h3> -->
         <img id="bg" class="img-size" src="{{ url_for('video_feed') }}">
         <hr>
         <div class="buttons">
@@ -43,8 +43,31 @@
         </div>
       </div>
 
-      <div class="detail-container">
-        
+      <div class="details-container">
+        <div class="background">
+          <div class="name-flex">
+            <img class="user-img" src="static/assets/user.png" alt="user image" width="70px">
+            <div class="name-age">
+              <p class="name">JUAN MIGUEL DELA CRUZ</p>
+              <p class="age">56 YEARS OLD</p>
+            </div>
+          </div>
+
+          <div class="patient-details">
+            <p class="style">
+              PATIENT'S BACKGROUND:
+            </p>
+            <p class="patient-bg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ipsam expedita vitae minima assumenda in, excepturi itaque ab unde, adipisci alias? Fugit, voluptate a atque veniam nulla minus minima eaque?
+            </p>
+          </div>
+      
+          <hr>
+        </div>
+
+        <div class="log">
+          <p>LOG</p>
+        </div>
       </div>
     </div>
     

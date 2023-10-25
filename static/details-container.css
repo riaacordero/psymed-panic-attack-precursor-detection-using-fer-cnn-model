@@ -17,7 +17,8 @@ p {
 }
 
 .name,
-.style {
+.style,
+.end-button {
     font-weight: 600;
 }
 
@@ -46,3 +47,21 @@ p {
     padding: 0 20px;
     align-items: center;
 } 
+
+.end-button {
+    border-style: none;
+    border: 1px solid;
+    border-radius: 40px;
+    width: 200px;
+    
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 30px;
+    
+    
+}

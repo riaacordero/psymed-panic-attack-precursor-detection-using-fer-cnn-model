@@ -68,37 +68,50 @@
 
         <div class="log">
           <p class="style">LOG:</p>
-          <div class="timestamp">
-            <div class="precursor-details">
-              <p>00:08:21:52</p>
-              <p>PRECURSOR DETECTED</p>
-            </div>
-            <hr>
-            <div class="precursor-details">
-              <p>00:10:17:17</p>
-              <p>PRECURSOR DETECTED</p>
-            </div>
-            <hr>
-            <div class="precursor-details">
-              <p>00:11:27:45</p>
-              <p>PRECURSOR DETECTED</p>
-            </div>
-            <hr>
-            <div class="precursor-details">
-              <p>00:13:34:12</p>
-              <p>PRECURSOR DETECTED</p>
-            </div>
-            
-          </div>
-
+          <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Information</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add rows dynamically using JavaScript or server-side code -->
+                <tr>
+                    <td>00:08:21:52</td>
+                    <td>PRECURSOR DETECTED</td>
+                </tr>
+  
+                <tr>
+                    <td>00:10:17:17</td>
+                    <td>PRECURSOR DETECTED</td>
+                </tr>
+  
+                <tr>
+                  <td>00:11:27:45</td>
+                  <td>PRECURSOR DETECTED</td>
+                </tr>
+  
+                <tr>
+                  <td>00:13:34:12</td>
+                  <td>PRECURSOR DETECTED</td>
+                </tr>
+  
+            </tbody>
+          </table>
+  
           <div class="button-div">
             <button class="end-button" onclick="openPopup()">
               END SESSION
             </button>
           </div>
-          
 
-        </div>
+        </div> 
+
+       
+
+
+
       </div>
     </div>
 

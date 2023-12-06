@@ -36,18 +36,6 @@ p {
     padding: 10px 40px;
 }
 
-.timestamp {
-    border: 1px solid;
-    
-}
-
-.precursor-details {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    padding: 0 20px;
-    align-items: center;
-} 
-
 .end-button {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -67,4 +55,24 @@ p {
     margin-top: 40px;
     
     
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid black /* Add border to the table */
+}
+
+thead {
+    border-bottom: 1px solid black;
+
+}
+th, td {
+    /* border: 1px solid ; */
+    padding: 8px;
+    text-align: left;
+}
+th {
+    /* background-color: #f2f2f2; */
 }

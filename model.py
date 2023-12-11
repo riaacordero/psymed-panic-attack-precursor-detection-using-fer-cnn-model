@@ -9,7 +9,7 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.15
 session = tf.compat.v1.Session(config=config)
 
 class FacialExpressionModel(object):
-    EMOTIONS_LIST = ["hvna", "lvha", "lvla", "lvna", "nvha", "neutral"]
+    EMOTIONS_LIST = ["confused", "happy", "miserable", "neutral", "tense"]
 
     def __init__(self, model_json_file, model_weights_file):
         with open(model_json_file, "r") as json_file:

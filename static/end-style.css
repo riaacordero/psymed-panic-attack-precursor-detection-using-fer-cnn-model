@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 100px 200px;
+    
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.text {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px
+}
+
+.flex-container {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.left-section {
+    column-gap: 40px;
+    /* background-color: palegreen; */
+    margin-left: 50px;
+
+}
+
+.right-section {
+    /* background-color: aqua; */
+    margin-right: 50px;
+}
+
+.download-button {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+
+.flex-button-return,
+.flex-button-download{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border-style: none;
+    border: 1px solid;
+    padding: 14px 60px;
+    width: 500px;
+    font-weight: 700;
+    background-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.flex-button-return:hover,
+.flex-button-download:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.flex-buttons {
+    margin-top: 180px;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+   
+
+}

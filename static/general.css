@@ -12,6 +12,15 @@ body {
     margin-bottom: 40px;
 }
 
+@media (max-width: 48em) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        row-gap: 2em;
+    }
+
+}
+
 .webcam-container {
     /* background-color: aqua; */
     display: flex;

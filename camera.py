@@ -23,7 +23,11 @@ class VideoCamera(object):
             fc = gray_fr[y:y+h, x:x+w]
 
             roi = cv2.resize(fc, (48, 48))
-            pred = model.predct_emotion(roi[np.newaxis, :, :, np.newaxis])
+
+            # Convert grayscale image to 3-channel image
+            roi = np.stack([roi]*3, axis=-1)
+
+            pred = model.predct_emotion(roi[np.newaxis, :, :, :])
 
             cv2.putText(fr, pred, (x, y), font, 1, (255, 255, 0), 2)
             cv2.rectangle(fr,(x,y),(x+w,y+h),(255,0,0),2)
